@@ -1,0 +1,203 @@
+/*
+
+Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+
+*/
+body {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: #252519;
+  background-color: #F5F5FF
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-color: grey;
+  margin-bottom: 10px;
+  border-bottom: solid #ddd 1px;
+}
+td {
+  vertical-align: top;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.header p {
+    margin-left: 20px;
+}
+
+.dependencies table {
+    border: none;
+    width: 99.99%;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.dependencies .dotted {
+    width: 99%;
+}
+
+.dependencies .dotted hr {
+    margin-bottom: -6px;
+    noshade: noshade;
+    border-top: none;
+    color: transparent;
+    border-left: none;
+    border-bottom: dotted #bbb 1px;
+    border-right: none;
+    background-color: transparent;
+    height: 0;
+  }
+
+.content {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1.project-name {
+    display: inline;
+    font-size: 34px;
+}
+
+h2.project-version {
+    display: inline;
+    margin-left: 10px;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.code_cell {
+  border: none;
+  margin: 0px;
+  padding-left: 20px;
+  width: 55%;
+  border-left: solid #E5E5EE 1px;
+  font-size: 10pt;
+  vertical-align: top;
+  overflow: hidden;
+  background-color: #F5F5FF;
+}
+
+td.comment_cell {
+  border: none;
+  margin: 0px;
+  padding-left: 55px;
+  width: 410px;
+  padding-right: 20px;
+  vertical-align: top;
+  max-width: 410px;
+  min-width: 410px;
+  background-color: #FFF;
+}
+
+pre {
+  float: left;
+  height: 100%;
+  margin-top: 0;
+}
+
+code {
+  font-family: 'Consolas', 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace !important;
+  font-size: 10pt;
+}
+.hljs {
+  display: inline-block;
+  overflow-x: auto;
+  padding: 0 0.5em 0.5em 0.5em;
+  /*background: #F0F0F0;*/
+}
+
+.footer {
+    text-align: center;
+}
+
+/* Base color: saturation 0; */
+
+.hljs,
+.hljs-subst {
+  color: #444;
+}
+
+.hljs-comment {
+  color: #888888;
+}
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name {
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #880000;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+.hljs-literal {
+  color: #78A960;
+}
+
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #397300;
+}
+
+
+/* Meta color: hue: 200 */
+
+.hljs-meta {
+  color: #1f7199;
+}
+
+.hljs-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
